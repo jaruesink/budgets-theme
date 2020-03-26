@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-thin.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-thin.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-thin.svg#gilroythin')
+      format('svg');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-ultralight.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-ultralight.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-ultralight.svg#gilroyultralight')
+      format('svg');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-light.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-light.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-light.svg#gilroylight')
+      format('svg');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-regular.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-regular.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-regular.svg#gilroyregular')
+      format('svg');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-medium.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-medium.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-medium.svg#gilroymedium')
+      format('svg');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-medium.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-medium.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-medium.svg#gilroymedium')
+      format('svg');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-bold.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-bold.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-bold.svg#gilroybold')
+      format('svg');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-extrabold.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-extrabold.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-extrabold.svg#gilroyextrabold')
+      format('svg');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('https://beta.budgets.money/assets/fonts/gilroy-heavy.woff2')
+      format('woff2'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-heavy.woff')
+      format('woff'),
+    url('https://beta.budgets.money/assets/fonts/gilroy-heavy.svg#gilroyheavy')
+      format('svg');
+  font-weight: 900;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --link-color: #04aeee;
+  }
+}
+
+* {
+  font-family: 'gilroy' !important;
+}
+
+.l-post-content h3 {
+  margin-bottom: 8px;
+}
+
+.l-post-content b,
+.l-post-content strong {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 48rem) {
+  .m-header {
+    padding: 8px 0;
+  }
+}
+
+.m-logo {
+  height: auto;
+}
+.m-logo.in-mobile-topbar {
+  margin: -20px 20px 0;
+}
+.m-logo img {
+  height: auto;
+  max-height: 48px;
+  border-radius: 6px;
+}
+.m-logo.in-mobile-topbar img {
+  max-height: 40px;
+}
+
+.m-hero {
+  min-height: 250px;
+  padding: 100px 0 35px;
+}
+
+.nav-login,
+.nav-create-account {
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 48rem) {
+  .m-nav__left ul li {
+    margin-right: 20px;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (min-width: 80rem) {
+  .m-hero.with-picture {
+    min-height: 450px;
+  }
+}
+
+.m-hero.with-picture .m-hero-title {
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 36px;
+}
+
+@media (min-width: 375px) {
+  .m-hero.with-picture .m-hero-title {
+    font-size: 52px;
+  }
+}
+
+.home-template .m-hero-title {
+  line-height: 10px;
+  margin-bottom: 22px;
+}
+
+.home-template .m-hero-description {
+  max-width: 520px;
+  margin-bottom: 24px;
+}
+.m-hero-description {
+  font-weight: 600;
+}
+
+.m-hero-title .subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.m-hero-title svg {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 375px) {
+  .m-hero-title svg {
+    height: 64px;
+  }
+}
+
+.m-hero__content__links a {
+  margin: 8px;
+  display: inline-block;
+}
+.m-hero__content__links img {
+  min-width: 171px;
+}
+
+@media (min-width: 375px) {
+  .m-hero__content__links img {
+    min-width: unset;
+  }
+}
+
+.m-featured-article__meta,
+.m-featured-article__content {
+  text-shadow: 1px 1px 5px black;
+}
+.m-featured-article__title {
+  font-weight: 800;
+}
+
+.m-featured-article__ribbon {
+  height: 24px;
+  border: 2px solid #21cdac;
+}
+
+.m-article-card__featured {
+  border: 2px solid #21cdac;
+}
+
+.m-featured-article__picture div {
+  opacity: 0.8;
+}
+
+/* Footer styles */
+.jslicense {
+  display: none;
+}
+.m-footer__content .m-footer-copyright:first-child span:nth-child(n + 2) {
+  display: none;
+}

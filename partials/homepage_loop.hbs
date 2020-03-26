@@ -1,6 +1,7 @@
 {{!-- The template below includes the markup for each post --}}
 
 {{#foreach posts}}
+{{#has tag="blog"}}
 {{#is "post"}}
 <div class="m-recommended-slider__item">
   {{/is}}
@@ -55,11 +56,5 @@
       {{#is "post"}}
     </div>
     {{/is}}
-    {{else}}
-    <header class="m-heading no-margin">
-      <h3>{{t "No posts found"}}</h3>
-      <p>
-        {{t "Apparently there are no posts at the moment, check again later."}}
-      </p>
-    </header>
+    {{/has}}
     {{/foreach}}
